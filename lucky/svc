@@ -1,0 +1,24 @@
+NAME                                         TYPE           CLUSTER-IP       EXTERNAL-IP                                                               PORT(S)                      AGE
+alertmanager-operated                        ClusterIP      None             <none>                                                                    9093/TCP,9094/TCP,9094/UDP   4m17s
+carts                                        ClusterIP      172.20.87.188    <none>                                                                    80/TCP                       7h52m
+carts-db                                     ClusterIP      172.20.59.1      <none>                                                                    27017/TCP                    7h52m
+catalogue                                    ClusterIP      172.20.176.117   <none>                                                                    80/TCP                       7h52m
+catalogue-db                                 ClusterIP      172.20.93.174    <none>                                                                    3306/TCP                     7h52m
+front-end                                    NodePort       172.20.28.165    <none>                                                                    80:30001/TCP                 7h52m
+                                                                 
+orders                                       ClusterIP      172.20.23.246    <none>                                                                    80/TCP                       7h52m
+orders-db                                    ClusterIP      172.20.31.87     <none>                                                                    27017/TCP                    7h52m
+payment                                      ClusterIP      172.20.236.155   <none>                                                                    80/TCP                       7h52m
+prometheus-grafana                           ClusterIP      172.20.44.252    <none>                                                                    80/TCP                       4m20s
+prometheus-kube-prometheus-alertmanager      ClusterIP      172.20.227.216   <none>                                                                    9093/TCP,8080/TCP            4m20s
+prometheus-kube-prometheus-operator          ClusterIP      172.20.135.223   <none>                                                                    443/TCP                      4m20s
+prometheus-kube-prometheus-prometheus        ClusterIP      172.20.140.223   <none>                                                                    9090/TCP,8080/TCP            4m20s
+prometheus-kube-state-metrics                ClusterIP      172.20.10.195    <none>                                                                    8080/TCP                     4m20s
+prometheus-operated                          ClusterIP      None             <none>                                                                    9090/TCP                     4m17s
+prometheus-prometheus-node-exporter          ClusterIP      172.20.187.126   <none>                                                                    9100/TCP                     4m20s
+queue-master                                 ClusterIP      172.20.91.210    <none>                                                                    80/TCP                       7h52m
+rabbitmq                                     ClusterIP      172.20.203.171   <none>                                                                    5672/TCP,9090/TCP            7h52m
+session-db                                   ClusterIP      172.20.197.238   <none>                                                                    6379/TCP                     7h52m
+shipping                                     ClusterIP      172.20.78.69     <none>                                                                    80/TCP                       7h52m
+user                                         ClusterIP      172.20.58.108    <none>                                                                    80/TCP                       7h52m
+user-db                                      ClusterIP      172.20.9.19      <none>                                                                    27017/TCP                    7h52m
